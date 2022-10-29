@@ -1,0 +1,30 @@
+{
+  "name": "challenge-back-compartilhamento-videos",
+  "version": "1.0.0",
+  "description": "Projeto de compartilhamento de videos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^6.6.7",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "redis": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
